@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Ranchito | Ocotlán, Jalisco</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#f5e6cc;
+    font-family:Georgia, serif;
+    color:#3c2415;
+}
+
+header{
+    background:#6b3e26;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:22px;
+}
+
+nav{
+    background:#4a2f20;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:18px;
+}
+
+section{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+}
+
+.tarjeta{
+    background:#fffaf2;
+    border-radius:15px;
+    padding:30px;
+    margin-bottom:25px;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+h2{
+    color:#8b4513;
+}
+
+ul{
+    line-height:1.8;
+}
+
+.whatsapp{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    border-radius:10px;
+}
+
+.whatsapp-float{
+    position:fixed;
+    width:65px;
+    height:65px;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    text-align:center;
+    font-size:35px;
+    line-height:65px;
+    text-decoration:none;
+    box-shadow:2px 2px 10px rgba(0,0,0,.3);
+    z-index:1000;
+}
+
+footer{
+    background:#3c2415;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    font-size:18px;
+}
+
+nav a{
+    display:block;
+    margin:10px;
+}
+
+.tarjeta{
+    padding:20px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>🌵 Mi Ranchito 🌵</h1>
+
+<p>El auténtico sabor del rancho</p>
+
+<p>Tacos de guisado • Menudo • Tortillas hechas a mano</p>
+
+</header>
+
+<nav>
+<a href="#nosotros">Nosotros</a>
+<a href="#menu">Menú</a>
+<a href="#ubicacion">Ubicación</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section>
+
+<div class="tarjeta" id="nosotros">
+
+<h2>🤠 Nuestra Historia</h2>
+
+<p>
+En Mi Ranchito conservamos el sabor tradicional de la cocina mexicana.
+Todos nuestros guisos se preparan con ingredientes frescos y nuestras tortillas son hechas a mano, como en casa.
+</p>
+
+<p>
+Ven y disfruta del auténtico sabor del rancho en un ambiente familiar y acogedor.
+</p>
+
+</div>
+
+<div class="tarjeta" id="menu">
+
+<h2>🌮 Carta Digital</h2>
+
+<p><strong>✨ Todas nuestras tortillas son hechas a mano.</strong></p>
+
+<h3>🌮 Tacos de Guisado ($15 c/u)</h3>
+
+<ul>
+<li>Bistec a la mexicana</li>
+<li>Frijoles</li>
+<li>Papas con longaniza</li>
+<li>Costilla en salsa verde</li>
+<li>Lengua en salsa verde</li>
+<li>Chicharrón en salsa roja</li>
+<li>Rajas con pollo</li>
+<li>Chuleta</li>
+<li>Birria</li>
+</ul>
+
+<h3>🍲 Menudo (Sábados y Domingos)</h3>
+
+<ul>
+<li>Grande - $100</li>
+<li>Chico - $50</li>
+</ul>
+
+<h3>🥤 Bebidas</h3>
+
+<ul>
+<li>Café de olla</li>
+<li>Café Nescafé</li>
+<li>Agua fresca de temporada</li>
+<li>Refrescos a elegir</li>
+</ul>
+
+<h3>🌵 Especialidades de la Casa</h3>
+
+<ul>
+<li>Orden con 2 guisados y frijoles - $100</li>
+<li>Orden con 1 guisado y frijoles - $60</li>
+</ul>
+
+<h3>📅 Horarios</h3>
+
+<p>Martes a Domingo</p>
+
+<p><strong>❌ Descansamos los lunes</strong></p>
+
+</div>
+
+<div class="tarjeta" id="ubicacion">
+
+<h2>📍 Ubicación</h2>
+
+<p>
+Pípila #172, Colonia Florida<br>
+Ocotlán, Jalisco
+</p>
+
+</div>
+
+<div class="tarjeta">
+
+<h2>🗺️ Encuéntranos</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Pipila+172+Colonia+Florida+Ocotlan+Jalisco&output=embed"
+width="100%"
+height="350"
+style="border:0; border-radius:15px;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+</div>
+
+<div class="tarjeta" id="contacto">
+
+<h2>📞 Contáctanos</h2>
+
+<p>Teléfono: 392 109 7066</p>
+
+<a class="whatsapp"
+href="https://wa.me/523921097066"
+target="_blank">
+Enviar mensaje por WhatsApp
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>🌵 Mi Ranchito 🌵</h3>
+
+<p>
+Pípila #172, Colonia Florida<br>
+Ocotlán, Jalisco
+</p>
+
+<p>
+Teléfono: 392 109 7066
+</p>
+
+<p>
+"El auténtico sabor del rancho"
+</p>
+
+</footer>
+
+<a href="https://wa.me/523921097066"
+class="whatsapp-float"
+target="_blank">
+💬
+</a>
+
+</body>
+</html>
